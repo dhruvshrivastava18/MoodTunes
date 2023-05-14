@@ -2,7 +2,7 @@
 Recommending music based on your facial expressions using FER 2013 dataset and Sporify api
 
 # Demo:
-![Uploading Screenshot 2023-05-14 at 6.03.09 PM.png…]()
+<img width="1440" alt="Screenshot 2023-05-14 at 6 03 09 PM" src="https://github.com/dhruvshrivastava18/MoodTunes/assets/70341587/9bd703ce-ac30-4c54-b200-75c1b72a5ea1">
 
 # Project Description:
 The emotion recognition model is trained on FER 2013 dataset. It can detect 7 emotions. The project works by getting live video feed from web cam, pass it through the model to get a prediction of emotion. Then according to the emotion predicted, the app will fetch playlist of songs from Spotify through spotipy wrapper and recommend the songs by displaying them on the screen.
