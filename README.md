@@ -42,7 +42,7 @@ Note:- Tried Implementing various other models like VGG16 but accuracy was far t
 
 # Image Processing and Training:
 - The images were normalised, resized to (48,48) and converted to grayscale in batches of 64 with help of 'ImageDataGenerator' in Keras API.
-- Training took around 13 hours locally for 75 epochs with an accuracy of ~66 %
+- Training took around 1 hour locally for 75 epochs with an accuracy of ~95 %
 
 # Current condition:
 The entire project works perfectly fine. Live detection gives good frame rates due to multithreading.
